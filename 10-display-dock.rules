@@ -1,0 +1,1 @@
+ACTION=="change", SUBSYSTEM=="drm", ENV{DISPLAY}=":0", RUN+="/home/nesquiko/udev_test.sh"
